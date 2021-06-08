@@ -3,11 +3,13 @@ Standalone application for aberration measurement and correction.
 
 Details of the AO method and applications to two-photon and three-photon fluorescence microscopy can be found at: https://www.biorxiv.org/content/10.1101/2020.11.25.397968v1
 
+![3P_AO_Cortex-01](https://user-images.githubusercontent.com/82175337/121226122-0eb26800-c83f-11eb-8368-7d51a25e666a.png)
+
 # I. Introduction
-This is a standalone control software for an adaptive optics (AO) module developed in the JiLab for aberration measurement and correction. It was designed to work with a hexagonal tip-tilt-piston deformable mirror (DM) manufactured by Boston Micromachines Corporation (Hex-111-X). Below we describe how to install and run this application. You can test it by running it in simulation mode, without the need of having the DM or a data acquisition (DAQ) device connected to your computer. 
+This is a standalone control software for an adaptive optics (AO) module developed in the JiLab for aberration measurement and correction. It was designed to work with a hexagonal tip-tilt-piston deformable mirror (DM) manufactured by Boston Micromachines Corporation (Hex-111-X). Below we describe how to install and run this application. You can test it by running it in simulation mode, without the need of having the DM or a data acquisition (DAQ) device connected to your computer (check out the video *JiLabAO_Getting_Started*, demonstrating how to run this control software in simulation mode).
 
 # II. Getting started #1 (not testing on a microscope yet)
-If you would like to see how this module works, you can test it without the need of having a DM or DAQ already by following the steps below:
+If you would like to see how this module works, you can test it without having a DM or DAQ already by following the steps below:
 
 ### Making a local copy of all files
 Please download all files from the repository locally into your computer.
@@ -48,6 +50,7 @@ The bin files are unique to each DM. You will need the lookup table provided by 
 # IV. Running the application on your microscope. 
 Once you succesfully complete all the steps described above, and you have properly integrated and aligned the AO module (DM, conjugating lenses, and filed stop) into your microscope, you are ready to go!
 
-- Using the imaging sofware that controls your microscope, find a fluorescent feature to run the AO routine on. 
+- Enter the desired settings on the “Adaptive Optics” and “System Configuration” tabs. 
+- Using the imaging software that controls your microscope, find a fluorescent feature to run the AO routine on. 
 - Park the laser in this location, open the mechanical shutter of your microscope, and run the AO routine.
 - Once the AO routine completes, close the mechanical shutter.
