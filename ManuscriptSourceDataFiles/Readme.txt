@@ -1,0 +1,1 @@
+Supplementary Table 1 of the manuscript "An adaptive optics module for deep tissue multiphoton imaging in vivo" contains pixel sizes and powers used for each image, as well as other relevant information.
